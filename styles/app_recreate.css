@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    margin-right: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+
+
+}
+
+.information {
+    background: maroon;
+    flex: 1;
+    padding: 10px;
+
+
+}
+
+.actors {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+
+}
+
+.release {
+    display: flex;
+    background: grey;
+    padding: 35px;
+}
